@@ -1,0 +1,278 @@
+/* 版心 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+
+/* 快捷导航模块 */
+
+.shortcut {
+    height: 40px;
+    line-height: 40px;
+    background-color: #32373e;
+}
+
+.logo {
+    float: left;
+    width: 50px;
+    height: 27px;
+    margin-top: 6px;
+}
+
+.logo a {
+    display: block;
+    width: 50px;
+    height: 27px;
+    background: url(../img/sprite.png) no-repeat -6px -7px;
+    background-size: 64px auto;
+    /* font-size: 0;  京东的做法 */
+    /* 淘宝做法 */
+    /* 将里面文字隐藏 */
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.site {
+    float: left;
+    width: 130px;
+    color: #afb5c0;
+    margin-left: 25px;
+}
+
+.site span {
+    font-size: 14px;
+    color: #41b47e;
+}
+
+.shortcut-nav {
+    float: left;
+    margin-left: 30px;
+}
+
+.shortcut-nav ul li {
+    float: left;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.shortcut-nav ul li a {
+    color: #afb5c0;
+    font-size: 14px;
+}
+
+.shortcut-nav ul li:hover {
+    background-color: #24282c;
+}
+
+.shortcut-nav ul li:hover a {
+    color: #fff;
+}
+
+.shortcut-r {
+    float: left;
+    margin-left: 225px;
+}
+
+.user {
+    float: left;
+    width: 25px;
+    height: 20px;
+    margin-top: 10px;
+    background: url(../img/sprite.png) no-repeat -6px -40px;
+    background-size: 64px auto;
+}
+
+.login {
+    float: left;
+}
+
+.login i {
+    float: left;
+    margin-top: 12px;
+    height: 16px;
+    border: 1px solid #afb5c0;
+}
+
+.login a {
+    display: block;
+    float: left;
+    height: 16px;
+    font-size: 12px;
+    color: #afb5c0;
+    padding: 0 10px;
+}
+
+.login a:hover {
+    color: #fff;
+}
+
+.app::before {
+    float: left;
+    margin-top: 8px;
+    margin-left: 30px;
+    content: '';
+    width: 15px;
+    height: 20px;
+    background: url(../img/sprite.png) no-repeat -37px -40px;
+    background-size: 64px auto;
+}
+
+.app {
+    color: #41b47e;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.enter {
+    margin-left: 20px;
+}
+
+.enter a {
+    font-size: 14px;
+    color: #afb5c0;
+}
+
+
+/* 头部模块 */
+
+.header {
+    height: 120px;
+    background-color: #00b38a;
+}
+
+.h-logo {
+    float: left;
+}
+
+.h-logo a {
+    display: block;
+    width: 215px;
+    height: 120px;
+    background: url(../img/logo.png);
+    background-size: 228px auto;
+}
+
+.content {
+    float: left;
+    margin: 35px 0 0 20px;
+}
+
+.content h1 {
+    color: #fff;
+}
+
+.content p {
+    color: #fff;
+    margin-top: 8px;
+}
+
+.h_login {
+    float: left;
+    width: 455px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 110px;
+}
+
+.h_login input {
+    width: 150px;
+    height: 35px;
+    color: #999;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.h_login button {
+    width: 108px;
+    height: 35px;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #00b38a;
+}
+
+
+/* 底部模块 */
+
+.footer {
+    height: 388px;
+    margin-top: 20px;
+}
+
+.mod_service {
+    height: 288px;
+    border-top: 1px solid #afb5c0;
+}
+
+.mod-app {
+    float: left;
+    width: 320px;
+    margin-top: 50px;
+    margin-right: 110px;
+    border-right: 1px solid #afb5c0;
+}
+
+.mod-app button {
+    width: 180px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #00b38a;
+    border: 1px solid #00b38a;
+}
+
+.mod-app span {
+    padding: 10px;
+}
+
+.mod_help {
+    padding-top: 50px;
+}
+
+.mod_help dl {
+    float: left;
+    margin-right: 170px;
+}
+
+.mod_help dl:last-child {
+    margin-right: 0;
+}
+
+.mod_help dl dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.mod_help dl dd {
+    margin-bottom: 10px;
+}
+
+.mod_copyright {
+    height: 100px;
+    line-height: 100px;
+    background-color: #fafafa;
+}
+
+.copyright p {
+    float: left;
+    width: 490px;
+    margin-right: 10px;
+}
+
+.lianxi {
+    float: left;
+    width: 190px;
+    height: 60px;
+    margin-top: 20px;
+    background: url(../upload/lianxi_03.png);
+}
+
+.link {
+    float: right;
+    margin-right: 10px;
+}

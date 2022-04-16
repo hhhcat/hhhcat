@@ -1,0 +1,61 @@
+.left {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 50px;
+    height: 27px;
+}
+
+.logo a {
+    display: block;
+    width: 50px;
+    height: 27px;
+    background: url(../img/sprite.png) no-repeat -6px -7px;
+    background-size: 64px auto;
+    /* font-size: 0;  京东的做法 */
+    /* 淘宝做法 */
+    /* 将里面文字隐藏 */
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.site {
+    float: left;
+    width: 130px;
+    color: #afb5c0;
+}
+
+.site span {
+    font-size: 14px;
+    color: #41b47e;
+}
+
+ul {
+    position: absolute;
+    left: 225px;
+    top: 0;
+}
+
+ul li {
+    float: left;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+ul li a {
+    color: #afb5c0;
+}
+
+ul li:hover {
+    background-color: #24282c;
+}
+
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

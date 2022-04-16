@@ -1,0 +1,363 @@
+/* 字体图标 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?fef5cb');
+    src: url('../fonts/icomoon.eot?fef5cb#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?fef5cb') format('truetype'), url('../fonts/icomoon.woff?fef5cb') format('woff'), url('../fonts/icomoon.svg?fef5cb#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+/* 搜索模块 */
+
+.banner {
+    height: 130px;
+    background-color: #f2f5f4;
+}
+
+.box {
+    position: relative;
+}
+
+.search {
+    position: absolute;
+    top: 30px;
+    left: 140px;
+    width: 930px;
+    height: 45px;
+    background-color: plum;
+}
+
+.search input {
+    float: left;
+    width: 790px;
+    height: 45px;
+    font-size: 14px;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+}
+
+.search button {
+    width: 140px;
+    height: 45px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00b38a;
+}
+
+
+/* 热门搜索模块 */
+
+.hotword {
+    position: absolute;
+    top: 85px;
+    left: 140px;
+}
+
+.hotword span {
+    float: left;
+}
+
+.hotword ul li {
+    float: left;
+    padding: 0 10px;
+}
+
+.hotword ul li a {
+    color: #00b38a;
+}
+
+
+/* 首页版心 */
+
+.nav {
+    float: left;
+}
+
+.nav ul {
+    width: 340px;
+    height: 380px;
+    margin-top: 20px;
+}
+
+.nav ul li {
+    position: relative;
+    padding: 10px 5px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.nav ul li::after {
+    position: absolute;
+    top: 11px;
+    right: 30px;
+    font-size: 16px;
+    content: '\e912';
+    font-family: 'icomoon';
+}
+
+.nav ul li span {
+    color: #555;
+    font-size: 14px;
+}
+
+.nav ul li a {
+    color: #555;
+    font-size: 12px;
+}
+
+.right {
+    float: right;
+    width: 844px;
+    height: 349px;
+    margin-top: 20px;
+}
+
+
+/* 职位模块 */
+
+.career-hd {
+    height: 50px;
+    border-bottom: 1px solid #999;
+}
+
+.career-hd ul {
+    margin-left: 5px;
+}
+
+.career-hd ul li {
+    float: left;
+    text-align: center;
+    width: 90px;
+    height: 50px;
+    margin-right: 5px;
+    line-height: 50px;
+}
+
+.career-hd ul li:hover {
+    border-bottom: 2px solid #000;
+}
+
+.career-hd ul li a {
+    color: #000;
+    font-size: 14px;
+}
+
+.career_new {
+    height: 25px;
+    margin: 20px 0;
+}
+
+.career_new p {
+    display: inline-block;
+}
+
+.career_new span {
+    color: #00b38a;
+}
+
+.career-main ul li {
+    float: left;
+    width: 390px;
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #b2c2c2;
+}
+
+.info {
+    position: relative;
+    width: 360px;
+    height: 100px;
+    border-bottom: 1px dashed #b2c2c2;
+}
+
+.info h5 {
+    display: inline-block;
+    width: 115px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.info span {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 14px;
+    color: #fa6041;
+}
+
+.info button {
+    width: 70px;
+    height: 28px;
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    border: 1px solid #b2c2c2;
+}
+
+.company {
+    margin-top: 15px;
+}
+
+.company img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.company h6 {
+    font-weight: 400;
+}
+
+.company p {
+    color: #999;
+}
+
+.career-footer {
+    width: 390px;
+    height: 40px;
+    margin-left: 400px;
+    border: 2px solid #00b38a;
+}
+
+.career-footer a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #00b38a;
+    font-size: 16px;
+}
+
+
+/* 热门公司模块  */
+
+.hot-com {
+    margin-top: 50px;
+}
+
+.com-hd {
+    border-bottom: 1px solid #999;
+}
+
+.com-hd ul li {
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.com-hd ul li:hover {
+    border-bottom: 2px solid #000;
+}
+
+.com-hd a {
+    color: #000;
+    font-size: 14px;
+}
+
+.com-new {
+    height: 25px;
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.com-new p {
+    display: inline-block;
+}
+
+.com-new span {
+    color: #00b38a;
+}
+
+.com-content ul li {
+    position: relative;
+    float: left;
+    width: 285px;
+    height: 270px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #b2c2c2;
+}
+
+.com-content ul li img {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    width: 80px;
+    height: 80px;
+}
+
+.com-content ul li h5 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.com-content ul li p {
+    position: absolute;
+    top: 140px;
+    left: 70px;
+    font-size: 12px;
+}
+
+.com-content .explain {
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    width: 260px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    border-bottom: 1px dashed #b2c2c2;
+}
+
+.com-content .comment {
+    position: absolute;
+    top: 215px;
+    left: 10px;
+}
+
+.com-content .comment ul li {
+    float: left;
+    width: 75px;
+    height: 40px;
+    text-align: center;
+}
+
+.com-content .comment ul li span {
+    display: block;
+}
+
+.com-footer {
+    width: 390px;
+    height: 40px;
+    margin-left: 400px;
+    border: 2px solid #00b38a;
+}
+
+.com-footer a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #00b38a;
+    font-size: 16px;
+}
